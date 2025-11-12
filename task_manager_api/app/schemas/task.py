@@ -13,5 +13,6 @@ class TaskOut(BaseModel):
     task_description: str
     timestamp: datetime
 
+
     class Config:
         from_attributes = True
